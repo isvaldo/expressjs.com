@@ -39,13 +39,13 @@ Jekyll uses the [Liquid template engine](http://liquidmarkup.org/) for templatin
 
 You can use [GFM](https://kramdown.gettalong.org/parser/gfm.html) fenced code blocks for JavaScript; for example:
 
-<pre>
+
 ```js
 var express = require('express')
 var app = express()
 app.listen(3000)
 ```
-</pre>
+
 
 The result looks like this:
 
@@ -54,6 +54,7 @@ var express = require('express')
 var app = express()
 app.listen(3000)
 ```
+
 
 The default GitHub Pages syntax highlighting has been disabled in `_config.yml` to allow highlighting with [prism.js](https://prismjs.com/).
 
